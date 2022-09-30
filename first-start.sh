@@ -28,5 +28,5 @@ sed -i "s/email=.*/email=$emailAddr/" $initLetsencryptScript
 
 chmod +x $initLetsencryptScript
 echo "Avvio script letsencrypt e compose"
-sudo $initLetsencryptScript && docker-compose up
+sudo $initLetsencryptScript
 

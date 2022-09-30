@@ -44,3 +44,5 @@ server {
 ...
 
 ```
+
+then run: `docker-compose up`
